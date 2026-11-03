@@ -47,3 +47,42 @@ footer{border-top:1px solid rgba(114,96,78,.15)}dialog{border-radius:25px;border
 .review-grid h3{font-size:27px;line-height:1.15;margin-bottom:14px}
 .review-grid article p{font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.7;margin:0;color:var(--muted)}
 @media(max-width:760px){.header{flex-wrap:wrap;gap:12px}.header nav{width:100%;display:flex;flex-wrap:wrap;gap:4px 16px;justify-content:flex-start}.header nav>a:nth-child(3){display:inline-flex}.header nav>a{font-size:12px}.header .nav-contact{margin-left:auto}html{scroll-padding-top:165px}}
+
+/* Cristal ligero en móvil: conservar el acabado sin difuminar al desplazar. */
+@media (max-width: 900px) {
+  body { background-attachment: scroll; }
+
+  .header,
+  .header.compact-header nav#header-menu,
+  .intro-side,
+  .package,
+  .package-tag,
+  .filters button,
+  #faq-list,
+  .review-grid article,
+  .closing,
+  .process-grid article,
+  .booking-grid article,
+  dialog,
+  dialog button,
+  dialog::backdrop {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .header { background: rgba(250, 248, 244, .96); }
+  .package, .intro-side { background: rgba(255, 255, 255, .74); }
+  dialog { background: #211e1b; }
+}
+
+.event-section { padding-top: 10px; }
+.event-packages { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.event-packages .package { --package-color: #702d40; }
+.event-packages .package-title { flex-wrap: wrap; }
+.event-payment { margin: 0 0 16px; }
+.event-payment summary { padding-top: 12px; padding-bottom: 12px; }
+.event-payment p { color: var(--muted); font-size: 13px; }
+
+@media (max-width: 650px) {
+  .event-packages { grid-template-columns: minmax(0, 1fr); }
+}

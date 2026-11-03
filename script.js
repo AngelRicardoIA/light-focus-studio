@@ -3,7 +3,7 @@ const $ = s => document.querySelector(s);
 const money = n => new Intl.NumberFormat('es-MX').format(n);
 const wa = message => `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(message)}`;
 function external(link, url) { link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; }
-document.querySelectorAll('[data-whatsapp]').forEach(a => external(a, wa(CONFIG.mensaje)));
+document.querySelectorAll('[data-whatsapp]').forEach(a => external(a, wa(a.dataset.whatsapp || CONFIG.mensaje)));
 document.querySelectorAll('[data-instagram]').forEach(a => external(a, CONFIG.instagram));
 $('#year').textContent = new Date().getFullYear();
 function slot(src, alt, name, label, lazy = true) {
