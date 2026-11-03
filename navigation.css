@@ -1,0 +1,28 @@
+/* Se carga después de styles.css para conservar el diseño del portafolio. */
+.header.compact-header{display:flex;flex-wrap:nowrap;gap:24px;box-sizing:border-box}
+.header.compact-header .brand{min-width:0;flex-shrink:1}
+.header.compact-header nav{width:auto;margin-left:auto;gap:24px;flex-wrap:nowrap}
+.header-actions{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.header-actions .nav-contact{display:inline-flex;align-items:center;justify-content:center;min-height:44px;white-space:nowrap}
+.contact-icon{display:none;width:23px;height:23px}
+.nav-toggle{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:1px solid var(--glass-edge);border-radius:50%;background:rgba(255,255,255,.75);color:var(--ink);padding:0}
+.menu-lines,.menu-lines::before,.menu-lines::after{display:block;width:17px;height:1.5px;background:currentColor;border-radius:2px}
+.menu-lines{position:relative}
+.menu-lines::before,.menu-lines::after{position:absolute;content:'';left:0}
+.menu-lines::before{top:-5px}.menu-lines::after{top:5px}
+.nav-toggle[aria-expanded=true] .menu-lines{background:transparent}
+.nav-toggle[aria-expanded=true] .menu-lines::before{top:0;transform:rotate(45deg)}
+.nav-toggle[aria-expanded=true] .menu-lines::after{top:0;transform:rotate(-45deg)}
+@media(max-width:900px){
+ .header.compact-header{width:calc(100% - 24px);max-width:1240px;margin:12px auto 0;top:10px;padding:12px 14px;gap:12px;border-radius:24px}
+ .compact-header .brand{font-size:15px;letter-spacing:.12em}
+ .compact-header .brand span{font-size:7px;letter-spacing:.16em}
+ .header-actions{margin-left:auto}
+ .header-actions .contact-label{display:none}
+ .header-actions .contact-icon{display:block}
+ .header.compact-header .header-actions .nav-contact{width:44px;height:44px;padding:0;margin:0;border-radius:50%}
+ .header.compact-header nav{position:absolute;top:calc(100% + 8px);left:0;right:0;width:auto;max-height:calc(100dvh - 110px);overflow:auto;margin:0;padding:10px;display:flex;flex-direction:column;align-items:stretch;gap:2px;background:rgba(250,248,244,.97);border:1px solid var(--glass-edge);border-radius:22px;box-shadow:var(--shadow);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px)}
+ .header.compact-header nav>a,.header.compact-header nav>a:nth-child(3){display:flex;min-height:48px;padding:10px 16px;font-size:14px;border-radius:13px}
+ .compact-header nav a:hover{background:rgba(173,98,75,.08)}
+ html{scroll-padding-top:110px}
+}
