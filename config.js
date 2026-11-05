@@ -2,32 +2,32 @@
 const CONFIG = {
   whatsapp: "523350517645",
   instagram: "https://www.instagram.com/light.focus.studio/",
-  fotoPerfil: "assets/Angel.jpg", 
+  fotoPerfil: "assets/Angel.webp", 
   mensaje: "Hola, me gustaría información para una sesión fotográfica.",
   mostrarOpinionesDemo: true,
   
   paquetes: [
-    {nombre:"Esencial", precio:1200, tiempo:"30 minutos", fotos:15, locacion:"Una locación acordada", imagen:"assets/Paquete_01.jpg", color:"#ad624b", etiqueta:"UN MOMENTO PARA TI"},
-    {nombre:"Clásico", precio:1800, tiempo:"1 hora", fotos:30, locacion:"Una locación acordada", imagen:"assets/Paquete_02.jpg", color:"#ae292d", etiqueta:"NUESTRA SUGERENCIA"},
-    {nombre:"Historia", precio:2500, tiempo:"2 horas", fotos:50, locacion:"Hasta 2 locaciones acordadas", imagen:"assets/Paquete_03.jpg", color:"#702d40", etiqueta:"PARA CONTAR UN POCO MÁS"}
+    {nombre:"Esencial", precio:1200, tiempo:"30 minutos", fotos:15, locacion:"Una locación acordada", imagen:"assets/Paquete_01.webp", color:"#ad624b", etiqueta:"UN MOMENTO PARA TI"},
+    {nombre:"Clásico", precio:1800, tiempo:"1 hora", fotos:30, locacion:"Una locación acordada", imagen:"assets/Paquete_02.webp", color:"#ae292d", etiqueta:"NUESTRA SUGERENCIA"},
+    {nombre:"Historia", precio:2500, tiempo:"2 horas", fotos:50, locacion:"Hasta 2 locaciones acordadas", imagen:"assets/Paquete_03.webp", color:"#702d40", etiqueta:"PARA CONTAR UN POCO MÁS"}
   ],
 
   experienciasDestacadas: [
     {
       nombre: "Esencial", precio: 1200, color: "#ad624b", etiqueta: "UN MOMENTO PARA TI",
-      imagen: "assets/Paquete_01.jpg",
+      imagen: "assets/Paquete_01.webp",
       caracteristicas: ["30 minutos de sesión", "15 fotografías editadas", "Una locación acordada", "Entrega digital"],
       mensajeWa: "Hola, me interesa el paquete Esencial de $1,200. ¿Qué fechas tienes disponibles?"
     },
     {
       nombre: "Clásico", precio: 1800, color: "#ae292d", etiqueta: "NUESTRA SUGERENCIA", destacado: true,
-      imagen: "assets/Paquete_02.jpg",
+      imagen: "assets/Paquete_02.webp",
       caracteristicas: ["1 hora de sesión", "30 fotografías editadas", "Una locación acordada", "Entrega digital"],
       mensajeWa: "Hola, me interesa el paquete Clásico de $1,800. ¿Qué fechas tienes disponibles?"
     },
     {
       nombre: "Evento + Clásico", precio: 3800, color: "#ae292d", etiqueta: "PROMOCIÓN ESPECIAL", promocion: true,
-      imagenes: ["assets/Evento.jpg", "assets/Paquete_02.jpg"],
+      imagenes: ["assets/Evento.jpg", "assets/Paquete_02.webp"],
       caracteristicas: ["4 horas de cobertura fotográfica", "1 hora de sesión Clásica", "30 fotografías editadas de la sesión", "Entrega digital de ambos servicios"],
       mensajeWa: "Hola, me interesa la promoción Evento + Clásico de $3,800. ¿Qué fechas tienes disponibles?"
     }
@@ -38,23 +38,23 @@ otrosServicios: [
       nombre: "Semblanzas audiovisuales",
       categoria: "AUDIOVISUAL",
       descripcion: "Videos personalizados elaborados con fotografías, música, textos y recuerdos para contar la historia de una persona.",
-      imagen: "assets/Servicio_Semblanza.jpg" // Sube una foto con este nombre
+      imagen: "assets/Servicio_Semblanza.webp" // Sube una foto con este nombre
     },
     {
       nombre: "Impresiones y cuadros",
       categoria: "FORMATO FÍSICO",
       descripcion: "Permiten convertir fotografías en productos físicos. Exclusivo como complemento de la contratación de un paquete fotográfico.",
-      imagen: "assets/Servicio_Impresion.jpg" // Sube una foto con este nombre
+      imagen: "assets/Servicio_Impresion.webp" // Sube una foto con este nombre
     }
   ],
 
   galeria: [
-    {archivo:"IMG001.jpg", categoria:"Retratos", descripcion:"Retrato en exterior"},
-    {archivo:"IMG002.jpg", categoria:"Parejas", descripcion:"Un instante en pareja"},
-    {archivo:"IMG003.jpg", categoria:"XV", descripcion:"Retrato de XV años"},
-    {archivo:"IMG004.jpg", categoria:"Retratos", descripcion:"Luz natural y retrato"},
-    {archivo:"IMG005.jpg", categoria:"Parejas", descripcion:"Recuerdos juntos"},
-    {archivo:"IMG006.jpg", categoria:"XV", descripcion:"Una etapa para recordar"}
+    {archivo:"IMG001.webp", categoria:"Retratos", descripcion:"Retrato en exterior"},
+    {archivo:"IMG002.webp", categoria:"Parejas", descripcion:"Un instante en pareja"},
+    {archivo:"IMG003.webp", categoria:"XV", descripcion:"Retrato de XV años"},
+    {archivo:"IMG004.webp", categoria:"Retratos", descripcion:"Luz natural y retrato"},
+    {archivo:"IMG005.webp", categoria:"Parejas", descripcion:"Recuerdos juntos"},
+    {archivo:"IMG006.webp", categoria:"XV", descripcion:"Una etapa para recordar"}
   ],
   
   preguntas: [
