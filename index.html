@@ -3,127 +3,108 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Light Focus Studio · Sesiones fotográficas</title>
-	<meta name="description" content="Sesiones fotográficas en exterior en Guadalajara. Conoce nuestros paquetes y encuentra una forma de contar tu historia.">
+	<title>Light Focus Studio · Fotografía y experiencias</title>
+	<meta name="description" content="Sesiones fotográficas, cobertura de eventos, semblanzas audiovisuales y productos fotográficos en Guadalajara.">
 	<meta name="theme-color" content="#faf8f4">
+
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="navigation.css">
+
 	<script src="config.js" defer></script>
 	<script src="script.js" defer></script>
 	<script src="navigation.js" defer></script>
 </head>
+
 <body>
-	<a class="skip" href="#paquetes">Saltar al contenido</a>
-	<header class="header"><a class="brand" href="#inicio" aria-label="Light Focus Studio, inicio">LIGHT FOCUS<span>FOTOGRAFÍA · GUADALAJARA</span></a>
+
+	<a class="skip" href="#experiencias-destacadas">Saltar al contenido</a>
+
+	<header class="header">
+		<a class="brand" href="index.html" aria-label="Light Focus Studio, inicio">
+			LIGHT FOCUS
+			<span>FOTOGRAFÍA · GUADALAJARA</span>
+		</a>
+
 		<nav aria-label="Navegación principal">
-			<a href="#sesiones">Sesiones</a>
-			<a href="#eventos">Eventos</a>
-			<a href="#semblanzas">Semblanzas</a>
-			<a href="#complementos">Complementos</a>
-			<a href="#personalizados">Personalizados</a>
+			<a href="paquetes.html">Paquetes</a>
+			<a href="servicios.html">Servicios</a>
+			<a href="index.html#galeria">Galería</a>
+			<a href="privacidad.html">Privacidad</a>
 			<a class="nav-contact" data-whatsapp>Hablemos ↗</a>
 		</nav>
 	</header>
+
 	<main id="inicio">
+
 		<section class="intro wrap">
 			<div>
 				<p class="eyebrow">FOTOGRAFÍA / RECUERDOS / EXPERIENCIAS</p>
 				<h1>Tu historia,<br><em>con otra luz.</em></h1>
 			</div>
+
 			<div class="intro-side">
-				<p>Fotografía y recuerdos hechos para conservar esos momentos que merecen quedarse.</p>
-				<a class="text-link" href="#servicios">
+				<p>
+					Fotografía y recuerdos hechos para conservar
+					esos momentos que merecen quedarse.
+				</p>
+				<a class="text-link" href="#experiencias-destacadas">
 					Descubre nuestros servicios <span>↓</span>
 				</a>
 			</div>
 		</section>
 
-		<section id="servicios" class="wrap section">
-			<div class="section-heading">
-				<h2>¿Qué estás buscando?</h2>
-				<p>Encuentra el servicio que tienes en mente.</p>
-			</div>
-
-			<div class="service-navigation">
-				<a href="#sesiones">Sesiones fotográficas ↗</a>
-				<a href="#eventos">Cobertura de eventos ↗</a>
-				<a href="#semblanzas">Semblanzas audiovisuales ↗</a>
-				<a href="#complementos">Impresiones y cuadros ↗</a>
-				<a href="#personalizados">Paquetes personalizados ↗</a>
-			</div>
-		</section>
-
-		<section id="paquetes" class="wrap section packages-section">
+		<section id="experiencias-destacadas" class="wrap section packages-section">
 			<div class="section-heading">
 				<div>
-					<h2>Elige cómo contarla.</h2></div>
-				<p>Tres formas de darle espacio a tu historia.<br>Edición y entrega digital en todos los paquetes.</p>
+					<p class="eyebrow">EXPERIENCIAS DESTACADAS</p>
+					<h2>Las opciones más elegidas.</h2>
+				</div>
+				<p>Descubre los favoritos de nuestros clientes para empezar a contar tu historia.</p>
 			</div>
-			<div class="packages" id="package-list"></div>
-			<p class="fine">Locación y horario sujetos a acuerdo. Accesos, permisos y traslados adicionales se cotizan antes de reservar.</p>
+
+			<div class="packages" id="destacados-list"></div>
+
+			<div style="text-align: center; margin-top: 45px;">
+				<a class="button" href="paquetes.html">Conocer todos los paquetes →</a>
+			</div>
 		</section>
-		<section id="eventos" class="wrap section event-section">
+
+		<section id="otros-servicios" class="wrap section">
 			<div class="section-heading">
-				<h2>Cobertura de eventos.</h2>
-				<p>Fotografías de tu celebración, con edición y entrega digital.</p>
+				<div>
+					<p class="eyebrow">MÁS OPCIONES</p>
+					<h2>Otros servicios.</h2>
+				</div>
 			</div>
-			<div class="packages event-packages">
-				<article class="package">
-					<div class="event-photo">
-						<img src="assets/Evento.jpg" alt="Fotografía de cobertura de evento" loading="lazy" decoding="async">
-					</div>
-					<div class="package-content">
-						<div class="package-title">
-							<h3>Evento</h3>
-							<span class="price">$2,800 <small>MXN</small></span>
-						</div>
-						<ul>
-							<li>4 horas de cobertura fotográfica</li>
-							<li>Selección, edición y entrega digital</li>
-						</ul>
-						<a class="package-link" data-whatsapp="Hola, me interesa la cobertura de Evento de $2,800. ¿Podemos revisar disponibilidad?">Consultar Evento ↗</a>
-					</div>
-				</article>
-				<article class="package featured">
-					<div class="event-photo event-photo-stack">
-						<img src="assets/Evento.jpg" alt="Fotografía de cobertura de evento" loading="lazy" decoding="async">
-						<img src="assets/Paquete_02.jpg" alt="Retrato de una sesión Signature" loading="lazy" decoding="async">
-					</div>
-					<div class="package-content">
-						<span class="package-tag">OFERTA · AHORRA $800</span>
-						<div class="package-title">
-							<h3>Evento + Signature</h3>
-							<span class="price">$3,800 <small>MXN</small></span>
-						</div>
-						<ul>
-							<li>4 horas de cobertura fotográfica</li>
-							<li>1 hora de sesión Signature en una locación acordada</li>
-							<li>30 fotos editadas de la sesión y entrega digital de ambos servicios</li>
-							<li>La sesión puede hacerse antes o después del evento, incluso en otra fecha</li>
-						</ul>
-						<details class="event-payment">
-							<summary>Aparta con $500 · Ver formas de pago</summary>
-							<p>El anticipo de $500 está incluido en el precio total.</p>
-							<p><strong>Evento primero.</strong> $500 al reservar, $2,300 el día del evento y $1,000 el día de la sesión.</p>
-							<p><strong>Signature primero.</strong> $500 al reservar, $1,300 el día de la sesión y $2,000 el día del evento.</p>
-						</details>
-						<a class="package-link" data-whatsapp="Hola, me interesa la oferta Evento + Signature de $3,800. ¿Podemos revisar disponibilidad?">Consultar oferta ↗</a>
-					</div>
-				</article>
+
+			<div class="packages event-packages" id="otros-servicios-list" style="max-width: 800px; margin: 0 auto;"></div>
+
+			<div style="text-align: center; margin-top: 45px;">
+				<a class="button" href="servicios.html">Conocer otros servicios →</a>
 			</div>
 		</section>
+
 		<section id="galeria" class="gallery-section section">
 			<div class="wrap">
 				<div class="section-heading">
 					<div>
-						<h2>Instantes que se quedan.</h2></div>
-					<p>La luz, los gestos y todo eso<br>que hace única una fotografía.</p>
+						<p class="eyebrow">NUESTRO TRABAJO</p>
+						<h2>Instantes que se quedan.</h2>
+					</div>
+
+					<p>
+						La luz, los gestos y todo eso
+						<br>
+						que hace única una fotografía.
+					</p>
 				</div>
+
 				<div class="filters" id="filters" aria-label="Filtrar fotografías"></div>
 				<div class="gallery" id="gallery"></div>
 				<p id="gallery-status" class="fine" aria-live="polite"></p>
 			</div>
 		</section>
+
 		<section class="wrap section process" id="como-funciona">
 			<div class="section-heading">
 				<h2>Así funciona tu sesión.</h2>
@@ -144,13 +125,26 @@
 				</article>
 			</div>
 		</section>
+
 		<section class="about wrap section">
 			<div class="photographer-photo" id="photographer-photo"></div>
+
 			<div class="about-copy">
 				<p class="eyebrow">DETRÁS DE LA CÁMARA</p>
 				<h2>Hola, soy Angel.</h2>
-				<p>Soy fotógrafo en Guadalajara. Me gusta encontrar la luz y los pequeños gestos que hacen que una imagen se sienta personal. Planeamos tu sesión juntos, a tu ritmo.</p><a class="text-link" data-instagram>Conoce más de mi trabajo en Instagram ↗</a></div>
+
+				<p>
+					Soy fotógrafo en Guadalajara. Me gusta encontrar la luz
+					y los pequeños gestos que hacen que una imagen se sienta personal.
+					Planeamos tu sesión juntos, a tu ritmo.
+				</p>
+
+				<a class="text-link" data-instagram>
+					Conoce más de mi trabajo en Instagram ↗
+				</a>
+			</div>
 		</section>
+
 		<section class="wrap section booking" id="reservas">
 			<div class="section-heading">
 				<h2>Antes de reservar.</h2>
@@ -176,11 +170,14 @@
 			</div>
 			<p class="fine">Escríbeme para recibir tu cotización completa. Consultar este sitio no reserva una fecha ni autoriza la publicación de tus fotografías.</p>
 		</section>
+
 		<section id="preguntas" class="wrap section faq">
 			<div>
-				<h2>Hablemos de<br>los detalles.</h2></div>
+				<h2>Hablemos de<br>los detalles.</h2>
+			</div>
 			<div id="faq-list"></div>
 		</section>
+
 		<section id="experiencia" class="wrap section reviews">
 			<div class="section-heading">
 				<h2>Una sesión a tu ritmo.</h2>
@@ -197,18 +194,60 @@
 				</article>
 			</div>
 		</section>
+
 		<section class="closing wrap">
 			<p class="eyebrow">HAGAMOS ALGO BONITO</p>
-			<h2>¿Qué historia<br><em>te gustaría guardar?</em></h2><a class="button" data-whatsapp>Consulta fechas por WhatsApp ↗</a>
-			<p>Cuéntame qué tienes en mente y elegimos el paquete juntos.</p>
+
+			<h2>
+				¿Qué historia<br>
+				<em>te gustaría guardar?</em>
+			</h2>
+
+			<a class="button" data-whatsapp>
+				Consulta fechas por WhatsApp ↗
+			</a>
+
+			<p>
+				Cuéntame qué tienes en mente y elegimos el paquete juntos.
+			</p>
 		</section>
+
 	</main>
-	<footer class="wrap"><a class="brand" href="#inicio">LIGHT FOCUS<span>STUDIO</span></a>
-		<div><a data-instagram>Instagram ↗</a><a data-whatsapp>WhatsApp ↗</a><a href="privacidad.html">Privacidad y uso de imagen</a></div><small>© <span id="year"></span> Light Focus Studio</small></footer>
-	<dialog id="lightbox" aria-label="Fotografía ampliada"><button id="close-lightbox" class="close" aria-label="Cerrar fotografía">✕</button><button id="previous-photo" class="previous" aria-label="Fotografía anterior">←</button>
-		<figure><img id="large-photo" alt="">
+
+	<footer class="wrap">
+		<a class="brand" href="index.html">
+			LIGHT FOCUS
+			<span>STUDIO</span>
+		</a>
+
+		<div>
+			<a href="paquetes.html">Paquetes</a>
+			<a href="servicios.html">Servicios</a>
+			<a data-instagram>Instagram ↗</a>
+			<a data-whatsapp>WhatsApp ↗</a>
+		</div>
+
+		<small>© <span id="year"></span> Light Focus Studio</small>
+	</footer>
+
+	<dialog id="lightbox" aria-label="Fotografía ampliada">
+		<button id="close-lightbox" class="close" aria-label="Cerrar fotografía">✕</button>
+		<button id="previous-photo" class="previous" aria-label="Fotografía anterior">←</button>
+
+		<figure>
+			<img id="large-photo" alt="">
 			<figcaption id="photo-caption"></figcaption>
-		</figure><button id="next-photo" class="next" aria-label="Fotografía siguiente">→</button></dialog>
-	<noscript><p class="wrap">Activa JavaScript para explorar los paquetes y la galería. Contacto: Instagram @light.focus.studio.</p></noscript>
+		</figure>
+
+		<button id="next-photo" class="next" aria-label="Fotografía siguiente">→</button>
+	</dialog>
+
+	<noscript>
+		<p class="wrap">
+			Activa JavaScript para explorar la galería.
+			Contacto: Instagram @light.focus.studio.
+		</p>
+	</noscript>
+
 </body>
 </html>

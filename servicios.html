@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Servicios · Light Focus Studio</title>
+	<meta name="description" content="Semblanzas audiovisuales, cuadros e impresiones fotográficas.">
+	<meta name="theme-color" content="#faf8f4">
+
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="navigation.css">
+
+	<script src="config.js" defer></script>
+	<script src="script.js" defer></script>
+	<script src="navigation.js" defer></script>
+</head>
+
+<body>
+
+	<a class="skip" href="#catalogo">Saltar al contenido</a>
+
+	<header class="header">
+		<a class="brand" href="index.html" aria-label="Light Focus Studio, inicio">
+			LIGHT FOCUS
+			<span>FOTOGRAFÍA · GUADALAJARA</span>
+		</a>
+
+		<nav aria-label="Navegación principal">
+			<a href="paquetes.html">Paquetes</a>
+			<a href="servicios.html" aria-current="page">Servicios</a>
+			<a href="index.html#galeria">Galería</a>
+			<a href="privacidad.html">Privacidad</a>
+			<a class="nav-contact" data-whatsapp>Hablemos ↗</a>
+		</nav>
+	</header>
+
+	<main id="inicio">
+
+		<section class="intro wrap">
+			<div>
+				<p class="eyebrow">MÁS OPCIONES</p>
+				<h1>El complemento<br><em>perfecto.</em></h1>
+			</div>
+
+			<div class="intro-side">
+				<p>
+					Semblanzas audiovisuales y opciones para llevar tus fotografías al formato físico.
+				</p>
+				<a class="text-link" href="#catalogo">
+					Explorar catálogo <span>↓</span>
+				</a>
+			</div>
+		</section>
+
+		<section id="catalogo" class="wrap section packages-section">
+			<div class="section-heading">
+				<div>
+					<p class="eyebrow">CATÁLOGO</p>
+					<h2>Servicios complementarios</h2>
+				</div>
+				<p>Opciones para dar vida a tus recuerdos en video o formato físico</p>
+			</div>
+
+			<div style="border: 1px solid var(--glass-edge); background: var(--glass); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); padding: 25px 35px; border-radius: 25px; margin-bottom: 45px; box-shadow: var(--shadow); text-align: left;">
+				<p style="margin: 0; font-size: 13px; color: var(--muted); line-height: 1.8;">
+					<strong>REGLA COMERCIAL:</strong> Las impresiones y cuadros fotográficos son un servicio exclusivo. <strong>Únicamente se ofrecen como complemento</strong> al contratar un paquete de sesión fotográfica o cobertura de evento. No se venden por separado.
+				</p>
+			</div>
+
+			<!-- Al poner los 3 juntos en .packages se distribuyen perfectamente sin espacios muertos -->
+			<div class="packages">
+				<article class="package" style="--package-color: #4a4039;">
+					<div class="photo-slot">
+						<img src="assets/Servicio_Semblanza.jpg" alt="Semblanza audiovisual" loading="lazy" decoding="async" style="object-position: 50% 35%;">
+					</div>
+					<div class="package-content">
+						<p class="eyebrow">AUDIOVISUAL</p>
+						<div class="package-title">
+							<h3>Semblanza</h3>
+							<span class="price">Desde $800 <small>MXN</small></span>
+						</div>
+						<p style="color: var(--muted); font-size: 13px; line-height: 1.8; margin: 18px 0;">Videos personalizados elaborados con fotografías, música, textos y recuerdos para contar la historia de una persona. Ideal para proyectar en celebraciones, cumpleaños o eventos conmemorativos.</p>
+						<a class="package-link" data-whatsapp="Hola, me gustaría cotizar una semblanza audiovisual.">Cotizar semblanza ↗</a>
+					</div>
+				</article>
+
+				<article class="package">
+					<div class="photo-slot">
+						<img src="assets/Servicio_Impresion.jpg" alt="Impresiones fotográficas" loading="lazy" decoding="async" style="object-position: 50% 35%;">
+					</div>
+					<div class="package-content">
+						<p class="eyebrow">FORMATO FÍSICO</p>
+						<h3>Impresiones</h3>
+						<p style="color: var(--muted); font-size: 13px; line-height: 1.8; margin: 15px 0 25px;">Tus fotografías favoritas reveladas en papel fotográfico de alta calidad. Diferentes tamaños y acabados para conservar tus recuerdos de forma tradicional y palpable.</p>
+						<a class="package-link" data-whatsapp="Hola, voy a agendar un paquete y me interesa agregar impresiones físicas. ¿Me compartes las opciones?">Consultar tamaños ↗</a>
+					</div>
+				</article>
+
+				<article class="package">
+					<div class="photo-slot">
+						<img src="assets/Servicio_Cuadro.jpg" alt="Cuadros fotográficos" loading="lazy" decoding="async" style="object-position: 50% 35%;">
+					</div>
+					<div class="package-content">
+						<p class="eyebrow">FORMATO FÍSICO</p>
+						<h3>Cuadros</h3>
+						<p style="color: var(--muted); font-size: 13px; line-height: 1.8; margin: 15px 0 25px;">Fotografías enmarcadas y montadas en soporte rígido listas para colgar. Un detalle elegante, personalizado y duradero para decorar tus espacios con tus mejores momentos.</p>
+						<a class="package-link" data-whatsapp="Hola, voy a agendar un paquete y me interesa incluir un cuadro fotográfico. ¿Me compartes los catálogos?">Consultar enmarcados ↗</a>
+					</div>
+				</article>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="wrap">
+		<a class="brand" href="index.html">
+			LIGHT FOCUS
+			<span>STUDIO</span>
+		</a>
+
+		<div>
+			<a href="paquetes.html">Paquetes</a>
+			<a href="servicios.html">Servicios</a>
+			<a data-instagram>Instagram ↗</a>
+			<a data-whatsapp>WhatsApp ↗</a>
+		</div>
+
+		<small>© <span id="year"></span> Light Focus Studio</small>
+	</footer>
+
+	<a href="index.html" class="button" style="position: fixed; bottom: 25px; right: 25px; z-index: 100; padding: 12px 22px; border-radius: 30px; box-shadow: 0 8px 24px rgba(71, 46, 31, 0.2);">
+		← Volver al inicio
+	</a>
+
+</body>
+</html>

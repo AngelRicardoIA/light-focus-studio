@@ -26,3 +26,6 @@
  .compact-header nav a:hover{background:rgba(173,98,75,.08)}
  html{scroll-padding-top:110px}
 }
+.header.compact-header nav[hidden] {
+	display: none;
+}

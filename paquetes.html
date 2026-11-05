@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Paquetes · Light Focus Studio</title>
+	<meta name="description" content="Catálogo completo de paquetes fotográficos: sesiones, cobertura de eventos y proyectos personalizados en Guadalajara">
+	<meta name="theme-color" content="#faf8f4">
+
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="navigation.css">
+
+	<script src="config.js" defer></script>
+	<script src="script.js" defer></script>
+	<script src="navigation.js" defer></script>
+</head>
+
+<body>
+
+	<a class="skip" href="#sesiones">Saltar al contenido</a>
+
+	<header class="header">
+		<a class="brand" href="index.html" aria-label="Light Focus Studio, inicio">
+			LIGHT FOCUS
+			<span>FOTOGRAFÍA · GUADALAJARA</span>
+		</a>
+
+		<nav aria-label="Navegación principal">
+			<a href="paquetes.html" aria-current="page">Paquetes</a>
+			<a href="servicios.html">Servicios</a>
+			<a href="index.html#galeria">Galería</a>
+			<a href="privacidad.html">Privacidad</a>
+			<a class="nav-contact" data-whatsapp>Hablemos ↗</a>
+		</nav>
+	</header>
+
+	<main id="inicio">
+
+		<section class="intro wrap">
+			<div>
+				<p class="eyebrow">CATÁLOGO DE SERVICIOS</p>
+				<h1>Encuentra tu<br><em>paquete ideal</em></h1>
+			</div>
+
+			<div class="intro-side">
+				<p>
+					Sesiones fotográficas, cobertura de eventos y opciones personalizadas a tu medida
+				</p>
+				<a class="text-link" href="#sesiones">
+					Explorar catálogo <span>↓</span>
+				</a>
+			</div>
+		</section>
+
+		<section id="sesiones" class="wrap section packages-section">
+			<div class="section-heading">
+				<div>
+					<p class="eyebrow">01 · SESIONES FOTOGRÁFICAS</p>
+					<h2>Para contar tu historia</h2>
+				</div>
+				<p>Edición y entrega digital en todos los paquetes</p>
+			</div>
+
+			<div class="packages" id="package-list"></div>
+
+			<p class="fine">
+				Locación y horario sujetos a acuerdo. Accesos, permisos
+				y traslados adicionales se cotizan antes de reservar
+			</p>
+		</section>
+
+		<section id="eventos" class="wrap section event-section">
+			<div class="section-heading">
+				<div>
+					<p class="eyebrow">02 · CELEBRACIONES Y EVENTOS</p>
+					<h2>Cobertura de eventos</h2>
+				</div>
+				<p>Fotografías de tu celebración, con edición y entrega digital</p>
+			</div>
+
+			<div class="packages">
+				<article class="package">
+					<div class="photo-slot">
+						<img src="assets/Evento.jpg" alt="Fotografía de cobertura de evento" loading="lazy" decoding="async">
+					</div>
+					<div class="package-content">
+						<div class="package-title">
+							<h3>Evento</h3>
+							<span class="price">$2,800 <small>MXN</small></span>
+						</div>
+						<ul>
+							<li>4 horas de cobertura fotográfica</li>
+							<li>Selección, edición y entrega digital</li>
+						</ul>
+						<a class="package-link" data-whatsapp="Hola, me interesa la cobertura de Evento de $2,800. ¿Podemos revisar disponibilidad?">Consultar Evento ↗</a>
+					</div>
+				</article>
+
+				<article class="package featured">
+					<div class="photo-slot event-photo-stack">
+						<img src="assets/Evento.jpg" alt="Fotografía de cobertura de evento" loading="lazy" decoding="async" style="position: absolute; width: 54%; height: 76%; object-fit: cover; top: 10%; left: 8%; transform: rotate(-7deg);">
+						<img src="assets/Paquete_02.jpg" alt="Retrato de una sesión Clásica" loading="lazy" decoding="async" style="position: absolute; width: 54%; height: 76%; object-fit: cover; right: 8%; bottom: 8%; transform: rotate(7deg);">
+					</div>
+					<div class="package-content">
+						<span class="package-tag" style="background: #ae292d; color: #ffffff; border-color: #ae292d; box-shadow: 0 4px 12px rgba(174, 41, 45, 0.25); font-weight: bold;">PROMOCIÓN ESPECIAL</span>
+						<div class="package-title">
+							<h3>Evento + Clásico</h3>
+							<span class="price">$3,800 <small>MXN</small></span>
+						</div>
+						<ul>
+							<li>4 horas de cobertura fotográfica</li>
+							<li>1 hora de sesión Clásica en locación acordada</li>
+							<li>30 fotos editadas de la sesión y entrega digital general</li>
+							<li>La sesión puede hacerse antes o después del evento</li>
+						</ul>
+						<details class="event-payment" style="margin-top: 15px; margin-bottom: 20px;">
+							<summary>Aparta con $500 · Ver formas de pago</summary>
+							<p>El anticipo de $500 está incluido en el precio total</p>
+							<p><strong>Evento primero:</strong> $500 al reservar, $2,300 el día del evento y $1,000 el día de la sesión</p>
+							<p><strong>Clásico primero:</strong> $500 al reservar, $1,300 el día de la sesión y $2,000 el día del evento</p>
+						</details>
+						<a class="package-link" data-whatsapp="Hola, me interesa la promoción Evento + Clásico de $3,800. ¿Podemos revisar disponibilidad?">Consultar promoción ↗</a>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section id="personalizados" class="wrap section">
+			<div class="section-heading">
+				<div>
+					<p class="eyebrow">03 · A TU MEDIDA</p>
+					<h2>Proyectos personalizados</h2>
+				</div>
+			</div>
+			<div class="about" style="max-width: 100%; grid-template-columns: 1fr; text-align: left; padding: 45px; border: 1px solid var(--glass-edge); border-radius: 28px; background: var(--glass); box-shadow: var(--shadow);">
+				<p>¿Tienes en mente un proyecto diferente, una campaña especial para tu negocio o requieres un esquema de horas distinto? Platiquemos sobre tu idea y construyamos una propuesta que se adapte exactamente a lo que necesitas</p>
+				<div style="margin-top: 25px;">
+					<a class="button" data-whatsapp="Hola, tengo una idea para un proyecto fotográfico y me gustaría solicitar una cotización a medida.">Cotizar un proyecto especial ↗</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="wrap section booking" id="reservas">
+			<div class="section-heading">
+				<h2>Antes de reservar</h2>
+				<p>Los detalles claros, desde el principio</p>
+			</div>
+			<div class="booking-grid">
+				<article>
+					<h3>Fecha y pago</h3>
+					<p>La fecha se confirma cuando acordamos las condiciones y se recibe el anticipo indicado en tu cotización. Su importe y el momento de pagar el saldo se informan antes de cualquier pago</p>
+				</article>
+				<article>
+					<h3>Locación y tiempo</h3>
+					<p>Ubicación, participantes, vestuarios y horario se acuerdan previamente. Accesos, permisos y traslados adicionales se desglosan; en Historia también acordamos cómo cuentan los traslados entre locaciones</p>
+				</article>
+				<article>
+					<h3>Cambios y cancelaciones</h3>
+					<p>Antes de reservar recibirás las condiciones de cancelación, reembolso y reprogramación. Si el clima impide la sesión, contactamos para acordar una alternativa. No se aplican cargos que no se hayan informado y aceptado</p>
+				</article>
+				<article>
+					<h3>Edición y entrega</h3>
+					<p>La cotización confirma cantidad de fotos, alcance de edición, plazo y medio de entrega. Retoques especiales, fotos adicionales y archivos originales se acuerdan por separado; no se incluyen automáticamente</p>
+				</article>
+			</div>
+			<p class="fine">Escríbeme para recibir tu cotización completa. Consultar este sitio no reserva una fecha ni autoriza la publicación de tus fotografías</p>
+		</section>
+
+	</main>
+
+	<footer class="wrap">
+		<a class="brand" href="index.html">
+			LIGHT FOCUS
+			<span>STUDIO</span>
+		</a>
+
+		<div>
+			<a href="paquetes.html">Paquetes</a>
+			<a href="servicios.html">Servicios</a>
+			<a data-instagram>Instagram ↗</a>
+			<a data-whatsapp>WhatsApp ↗</a>
+		</div>
+
+		<small>© <span id="year"></span> Light Focus Studio</small>
+	</footer>
+
+	<a href="index.html" class="button" style="position: fixed; bottom: 25px; right: 25px; z-index: 100; padding: 12px 22px; border-radius: 30px; box-shadow: 0 8px 24px rgba(71, 46, 31, 0.2);">
+		← Volver al inicio
+	</a>
+
+</body>
+</html>
