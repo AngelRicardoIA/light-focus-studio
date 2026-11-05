@@ -500,3 +500,31 @@ if (photographer) {
 
   photographer.append(portrait.frame);
 }
+
+
+document.addEventListener("DOMContentLoaded", () => {
+	if (document.getElementById('destacados-list')) {
+		
+		const observer = new IntersectionObserver((entries) => {
+			entries.forEach(entry => {
+				if (entry.isIntersecting) {
+					entry.target.classList.add('visible');
+
+					observer.unobserve(entry.target); 
+				}
+			});
+		}, { 
+			threshold: 0.15 
+		});
+
+		document.querySelectorAll('section').forEach(section => {
+			section.classList.add('reveal');
+			observer.observe(section);
+		});
+		
+		setTimeout(() => {
+			const intro = document.querySelector('.intro');
+			if(intro) intro.classList.add('visible');
+		}, 100);
+	}
+});
