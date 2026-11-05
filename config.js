@@ -27,7 +27,7 @@ const CONFIG = {
     },
     {
       nombre: "Evento + Clásico", precio: 3800, color: "#ae292d", etiqueta: "PROMOCIÓN ESPECIAL", promocion: true,
-      imagenes: ["assets/Evento.jpg", "assets/Paquete_02.webp"],
+      imagenes: ["assets/Evento.webp", "assets/Paquete_02.webp"],
       caracteristicas: ["4 horas de cobertura fotográfica", "1 hora de sesión Clásica", "30 fotografías editadas de la sesión", "Entrega digital de ambos servicios"],
       mensajeWa: "Hola, me interesa la promoción Evento + Clásico de $3,800. ¿Qué fechas tienes disponibles?"
     }
